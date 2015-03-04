@@ -1,3 +1,5 @@
 /**
- * Created by ThomasKerns on 3/3/15.
+ * Thomas Kerns
+ * SDI
+ * 201503-02
  */
