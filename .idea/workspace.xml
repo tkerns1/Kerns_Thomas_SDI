@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88cb6da5-65ce-4f3a-bdd3-f6622b2c3efc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output Assignment/output Assignment.html" afterPath="$PROJECT_DIR$/Output Assignment/output Assignment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output Assignment/JS/output assignment.js" afterPath="$PROJECT_DIR$/Output Assignment/JS/output assignment.js" />
     </list>
     <ignored path="Kerns_Thomas_SDI.iws" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/Output Assignment/JS/output assignment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.17910448" vertical-offset="0" max-vertical-offset="670">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -222,7 +221,7 @@
     <entry file="file://$PROJECT_DIR$/Output Assignment/JS/output assignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17910448" vertical-offset="0" max-vertical-offset="670">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
