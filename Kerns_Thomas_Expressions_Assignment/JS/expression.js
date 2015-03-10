@@ -2,7 +2,7 @@
  * Thomas Kerns
  * SDI
  * 201503-02
- *
+ * Expressions assignment
   */
 
 var woodPile = new Array(); // Identifies the new variable as an Array
