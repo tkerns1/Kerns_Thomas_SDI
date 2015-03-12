@@ -6,8 +6,16 @@
  */
 
 var height = prompt("enter the height of the box in inches: ");// gets the height variable
+    if(height == ""){
+        alert("please enter value!")
+}
 var length = prompt ("enter the length of the box in inches:");// gets the length variable
+    if(length == ""){
+        alert("please enter value!")
+    }
 var width  = prompt("enter the width of the box in inches:");  // gets the width variable
+    if(width == "")
+        alert("please enter value!");
 var volume = Number(height) * Number(length) * Number(width); // formula for volume
 var basePrice = 12.00;// identifies the base price to ship
 
