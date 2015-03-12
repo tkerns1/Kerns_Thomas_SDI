@@ -21,3 +21,6 @@ var basePrice = 12.00;// identifies the base price to ship
             var newPrice = basePrice +3; // new price due to box size
                 console.log("your new price is $" +newPrice+ " to ship your box."); //output statement
     }
+
+// I tested the code with 16x3x3 and it told me my box was too big and gave me the $15 price
+// I tested the code with 12x6x6 and it told me I can ship my box at the $9 price
