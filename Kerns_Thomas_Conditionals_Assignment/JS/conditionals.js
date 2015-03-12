@@ -5,19 +5,19 @@
  * Conditionals assignment
  */
 
-var height = prompt("enter the height of the box in inches: ");
-var length = prompt ("enter the length of the box in inches:");
-var width  = prompt("enter the width of the box in inches:");
-var volume = Number(height) * Number(length) * Number(width);
-var basePrice = 12.00;
+var height = prompt("enter the height of the box in inches: ");// gets the height variable
+var length = prompt ("enter the length of the box in inches:");// gets the length variable
+var width  = prompt("enter the width of the box in inches:");  // gets the width variable
+var volume = Number(height) * Number(length) * Number(width); // formula for volume
+var basePrice = 12.00;// identifies the base price to ship
 
-(volume <1000) ? console.log("you can ship your box") : console.log("Your box is too big");
+(volume <1000) ? console.log("you can ship your box") : console.log("Your box is too big");// determines the size of the box
 
-    if (volume <=1000){
-        var newPrice = basePrice -3;
-            console.log("your new price is $" +newPrice+ " to ship your box.")
+    if (volume <=1000){ // if statement for small box statement
+        var newPrice = basePrice -3;// new price due to box size
+            console.log("your new price is $" +newPrice+ " to ship your box."); // output statement
     }
-        else if (volume >=1000){
-            var newPrice = basePrice +3;
-                console.log("your new price is $" +newPrice+ " to ship your box.")
+        else if (volume >=1000){ // if statement for large boxes
+            var newPrice = basePrice +3; // new price due to box size
+                console.log("your new price is $" +newPrice+ " to ship your box."); //output statement
     }
