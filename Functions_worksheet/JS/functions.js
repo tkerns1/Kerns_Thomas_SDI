@@ -7,8 +7,10 @@
 // example area
 
 function circom(){
-    var radius = 5;
-    var circom = 2 * 3.14 * radius;
+    var radius = 5;// radius of the circle
+    var circom = 2 * 3.14 * radius; the formula for circomference of a circle
     console.log("The circumfrence of your circle is " + circom + " sq ft")
 }
-circum();
+circom();
+
+console.log("------------------Bee Stings-----------------------");
