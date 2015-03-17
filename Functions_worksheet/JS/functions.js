@@ -6,10 +6,9 @@
  */
 // example area
 
-function dogYears(){
-    var age = 4;
-    var dogYears = age * 7;
-    console.log ( "Sparky is " + dogYears + " in dog years")
+function circom(){
+    var radius = 5;
+    var circom = 2 * 3.14 * radius;
+    console.log("The circumfrence of your circle is " + circom + " sq ft")
 }
-
-dogYears();
+circum();
