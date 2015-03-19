@@ -11,9 +11,13 @@ var userPrompt = Number(prompt("Enter 1 for florida lottery or 2 for power ball"
 //IF statement
 // florida lotto
 if (userPrompt === 1) {
-    for (var a = 0; a <= 5; a++)
-    var florLotto = Math.floor(Math.random() * (53 - 1) + 1)
-    console.log(florLotto)
+    function lottery() {
+       for (var a = 0; a<=5; a++){
+           var lottery = Math.floor(Math.random() * 47);
+           console.log (lottery);
+       }
+    }
+    lottery();
 }
 // do while statement count down from 5
 
