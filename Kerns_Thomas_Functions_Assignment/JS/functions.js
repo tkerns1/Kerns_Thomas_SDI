@@ -8,22 +8,30 @@
 
 //var prompt
 var userPrompt = Number(prompt("Enter 1 for florida lottery or 2 for power ball"));
+while(userPrompt === ""){
+    userPrompt = prompt("Please enter a number");
+}
 //IF statement
 // florida lotto
-if (userPrompt === 1) {
+if (userPrompt === 1){
+
     function lottery() {
-       for (var a = 0; a<=5; a++){
-           var lottery = Math.floor(Math.random() * 47);
+       for (var a = 0; a<=6; a++){
+           var lottery = Math.round(Math.random() * (53 - 1) + 1);
            console.log (lottery);
        }
     }
+    console.log ("your Florida Lottery numbers are: ")
     lottery();
+
 }
-// do while statement count down from 5
+
 
 
 
 //ELSE statement
-// powerball
+ else {
+    console.log("else statement")
+}// powerball
 //while
 // function for powerball number
