@@ -16,7 +16,7 @@ while(userPrompt === ""){
 if (userPrompt === 1){
 
     function lottery() {
-       for (var a = 0; a<=6; a++){
+       for (var a = 0; a<=5; a++){
            var lottery = Math.round(Math.random() * (53 - 1) + 1);
            console.log (lottery);
        }
@@ -31,7 +31,16 @@ if (userPrompt === 1){
 
 //ELSE statement
  else {
-    console.log("else statement")
+    function pbNumbers(){
+        for (var b = 0; b<=4; b++){
+            var pbNumbers = Math.round(Math.random() * (59 - 1) + 1);
+            console.log(pbNumbers);
+        }
+    }
+    console.log ("Your powerball numbers are: ");
+    pbNumbers();
+    var powerBall = Math.round(Math.random() * (35 - 1) + 1);
+    console.log("Your powerball number is: " + powerBall)
 }// powerball
 //while
 // function for powerball number
